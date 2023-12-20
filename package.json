@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
   "dependencies": {
+    "dotenv": "^16.3.1",
     "fastify": "^4.25.1",
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3"
   }
 }
